@@ -2,7 +2,7 @@ import groovy.util.*
 
 // Powered by Infostretch
 pipeline {
-    agent { label 'any' }
+    agent { label 'localhost' }
 
     parameters {
         // the default choice for commit-triggered builds is the first item in the choices list
